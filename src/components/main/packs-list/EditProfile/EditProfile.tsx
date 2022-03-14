@@ -53,7 +53,7 @@ export const EditProfile = () => {
             }
 
         }
-        const b =2
+
         return (
             <form onSubmit={clickHandler}>
                 <SuperTextField type={'Nickname'} value={name} callback={setName}/>
