@@ -56,7 +56,7 @@ export const EditProfile = () => {
         return (
             <form onSubmit={clickHandler}>
                 <SuperTextField type={'Nickname'} value={name} callback={setName}/>
-                <input name="myFile" type="file" accept='.jpg,.png' multiple
+                <input name="myFile" type="file" multiple
                        onChange={addFile}/>
                 <button type='submit'>Save</button>
                 <div>
